@@ -1,0 +1,34 @@
+.game-overview {
+
+}
+
+.logo {
+	vertical-align: middle;
+	display: inline;
+	width: 5rem;
+}
+
+.score {
+	text-align: center;
+	font-size: 3.5rem;
+}
+
+.logo-h {
+	grid-area: logo-h;
+}
+
+.home-score {
+	grid-area: home-score;
+}
+
+.hypen {
+	grid-area: hyphen;
+}
+
+.away-score {
+	grid-area: away-score;
+}
+
+.logo-a {
+	grid-area: logo-a;
+}

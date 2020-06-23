@@ -1,0 +1,102 @@
+html {
+	color: white;
+	background: #333333;
+}
+
+.game {
+	width: 20rem;
+	height: 40rem;
+	background-color: #2F3133;
+	margin: 2rem;
+	border-radius: .5rem;
+}
+
+.game-nav {
+	border-radius: .5rem .5rem 0 0;
+	height: 2rem;
+	line-height: 2rem;
+	display: grid;
+	grid-template-columns: 1fr, 1fr, 1fr;
+	grid-template-areas: "main home away";
+	background-color: black;
+	text-align: center;
+}
+
+.game-nav-main {
+	grid-area: main;
+}
+
+.game-nav-home {
+	grid-area: home;
+}
+
+.game-nav-away {
+	grid-area: away;
+}
+
+.game-nav-active {
+	border-bottom: 1px solid white;
+}
+
+.period {
+	font-size: .9rem;
+	text-align: right;
+	margin: .6rem 1rem;
+	font-weight: bold;
+
+}
+
+
+.others, .fav-teams {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+.statline-s1, .statline-s2, .statline-s3, .statline-s4{
+	text-align: center;
+}
+
+.statline {
+	display: grid;
+	grid-template-areas: "pl number name s1 s2 s3 s4 pr";
+	grid-template-columns: 5% 13% 37% 10% 10% 10% 10% 5%;
+	font-size: .9rem;
+	border-bottom: 1px solid gray;
+	padding: .2rem 0;
+}
+
+
+.statline-number {
+	grid-area: number;
+}
+
+.statline-name {
+	grid-area: name;
+}
+
+.statline-s1 {
+	grid-area: s1;
+}
+
+.statline-s2 {
+	grid-area: s2;
+}
+
+.statline-s3 {
+	grid-area: s3;
+}
+
+.statline-s4 {
+	grid-area: s4;
+}
+
+.statline-s5 {
+	grid-area: s5;
+}
+
+.team-panel {
+	overflow-y: auto;
+	height: 94.5%;
+}

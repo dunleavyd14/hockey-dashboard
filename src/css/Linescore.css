@@ -1,0 +1,16 @@
+.linescore {
+	display: grid;
+	width: 90%;
+	margin: 0 auto;
+	grid-template-areas: 	"label-teams label-p1 label-p2 label-p3 label-t"
+							"home-tri  home-p1 home-p2 home-p3 home-t"
+							"away-tri  away-p1 away-p2 away-p3 away-t";
+	grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+	font-size: .8rem;
+}
+
+.label-teams, .label-p1, .label-p2, .label-p3, .label-t {
+	color: gray;
+	border-bottom: 1px solid darkgray;
+}
+
